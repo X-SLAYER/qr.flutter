@@ -213,7 +213,7 @@ class _QrImageViewState extends State<QrImageView> {
   Widget _qrWidget(BuildContext context, ui.Image? image, double edgeLength) {
     final painter = QrPainter.withQr(
       qr: _qr!,
-      color: widget.foregroundColor,
+      color: widget.eyeStyle.color,
       gapless: widget.gapless,
       embeddedImageStyle: widget.embeddedImageStyle,
       embeddedImage: image,

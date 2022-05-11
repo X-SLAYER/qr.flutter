@@ -10,6 +10,8 @@ import 'qr_versions.dart';
 
 /// A utility class for validating and pre-rendering QR code data.
 class QrValidator {
+  QrValidator._();
+
   /// Attempt to parse / generate the QR code data and check for any errors. The
   /// resulting [QrValidationResult] object will hold the status of the QR code
   /// as well as the generated QR code data.

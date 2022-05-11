@@ -7,6 +7,8 @@
 /// This class only contains special version codes. QR codes support version
 /// numbers from 1-40 and you should just use the numeric version directly.
 class QrVersions {
+  QrVersions._();
+
   /// Automatically determine the QR code version based on input and an
   /// error correction level.
   static const int auto = -1;
